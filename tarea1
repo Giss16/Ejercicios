@@ -1,0 +1,23 @@
+   public class tarea1{
+   public static void main (String[] args){
+         String s = "Hola";
+         int x = s.length(); // retorna: 4
+System.out.println("");
+String s1 = "Hola";
+          boolean b1 = s1.isEmpty(); // retorna: false
+          String s2 = "";
+          boolean b2 = s2.isEmpty(); // retorna: true
+System.out.println("");
+String t = "Hola";
+for(int i=0; i<t.length(); i++){
+char c = t.charAt (i);
+System.out.println(c); // SALIDA: H o l a
+System.out.println("");
+String x = "Hola";
+String y = "Hola";
+System.out.println("");
+if( x.equals(y) ) // compara sus contenidos, retorna true;{
+System.out.println("Si pasa por aqui!";
+}
+   }
+   }
